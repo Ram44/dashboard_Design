@@ -7,7 +7,7 @@ class Login extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("login Screen"),
-        centerTitle: true,
+        //centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -26,7 +26,7 @@ class Login extends StatelessWidget {
                     text: "There",
                     style: TextStyle(fontSize: 70, color: Colors.black87)),
                 TextSpan(
-                    text: ".",
+                    text: "...",
                     style: TextStyle(fontSize: 70, color: Colors.green)),
               ])),
               TextField(
